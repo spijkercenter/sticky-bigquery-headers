@@ -1,0 +1,11 @@
+{
+    "name": "Sticky BigQuery headers",
+    "description": "A plugin for having the column headers in the BigQuery console stick",
+    "homepage_url": "https://github.com/spijkercenter/sticky-bigquery-headers",
+    "version": "1.0",
+    "content_scripts": [{
+        "css": ["styles.css"],
+        "matches": ["https://console.cloud.google.com/bigquery*"]
+    }],
+    "manifest_version": 2
+  }
